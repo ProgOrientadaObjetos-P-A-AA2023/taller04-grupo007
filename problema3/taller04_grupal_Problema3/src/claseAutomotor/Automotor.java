@@ -9,10 +9,6 @@ package claseAutomotor;
  * @author SALA I
  */
 public class Automotor {
-    // Un automotor tiene entre sus características, cédula del dueño,
-    // marca de vehículo, año de fabricación, valor de vehículo y valor de la 
-    // matricula. El valor de la matricula es igual al 0.002% del valor de 
-    // vehículo por el número de años de antiguedad del vehiculo.
     
     private String cedula;
     private String marcaV;

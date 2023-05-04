@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package ejecutor;
-import claseAutomotor.Automotor;
+import claseCheques.Cheques;
 /**
  *
  * @author SALA I
@@ -12,17 +12,17 @@ public class Ejecutor {
 
     public static void main(String[] args) {
         
-        Automotor vehiculo1 = new Automotor();
+       Cheques cheque1 = new Cheques();
        
-       vehiculo1.calcularValorMatricula();
+       cheque1.calcularComision();
        
-       System.out.printf("%s\n", vehiculo1);
+       System.out.printf("%s\n", cheque1);
        
-       Automotor vehiculo2 = new Automotor("1100005790","Datsun",1990,30000.50);
+       Cheques cheque2 = new Cheques("Martha","Banco de Loja",200.30);
        
-       vehiculo2.calcularValorMatricula();
+       cheque2.calcularComision();
        
-       System.out.printf("%s\n", vehiculo2);
+       System.out.printf("%s\n", cheque2);
     }
     
 }
